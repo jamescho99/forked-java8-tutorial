@@ -26,6 +26,7 @@ public class Atomic1 {
         ExecutorService executor = Executors.newFixedThreadPool(2);
         // This is another important comment
         IntStream.range(0, NUM_INCREMENTS)
+            // My third comment.
                 .forEach(i -> {
                     Runnable task = () ->
                             atomicInt.updateAndGet(n -> n + 2);

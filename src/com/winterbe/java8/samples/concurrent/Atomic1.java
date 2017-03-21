@@ -11,7 +11,7 @@ import java.util.stream.IntStream;
 public class Atomic1 {
 
     private static final int NUM_INCREMENTS = 1000;
-
+    // this is my first comment.
     private static AtomicInteger atomicInt = new AtomicInteger(0);
 
     public static void main(String[] args) {
